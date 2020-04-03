@@ -4,10 +4,8 @@ import com.algamaney.api.event.RecursoCriadoEvent;
 import com.algamaney.api.model.Pessoa;
 import com.algamaney.api.repository.PessoaRepository;
 import com.algamaney.api.service.PessoaService;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
-import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -19,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("pessoas")
 public class PessoaResource {
-/*Video aula 4.3*/
+/*Video aula 5.8*/
     @Autowired
     private PessoaRepository pessoaRepository;
 
