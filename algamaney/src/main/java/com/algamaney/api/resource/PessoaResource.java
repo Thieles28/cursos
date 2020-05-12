@@ -17,7 +17,6 @@ import java.util.List;
 @RestController
 @RequestMapping("pessoas")
 public class PessoaResource {
-/*Video aula 5.8*/
     @Autowired
     private PessoaRepository pessoaRepository;
 

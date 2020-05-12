@@ -79,6 +79,15 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
+            <version>2.3.4.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-jwt</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -86,7 +95,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <plugin>
+           <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
@@ -98,7 +107,7 @@
                         <processor>org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor</processor>
                     </compilerArguments>
                 </configuration>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 
